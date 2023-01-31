@@ -1,0 +1,33 @@
+.add-game-form-wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 540px;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #348f34;
+  border: none;
+  color: white;
+  padding: 3px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.submit-btn:disabled {
+  background-color: rgb(104, 104, 104);
+  cursor: not-allowed;
+}

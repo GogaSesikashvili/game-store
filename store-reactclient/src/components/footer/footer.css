@@ -1,0 +1,15 @@
+.footer-wrapper {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0 25px 0 25px;
+  align-items: center;
+}
+
+.footer-logo-img {
+  width: 120px;
+}
+
+.copyrights {
+  font-size: 13px;
+}

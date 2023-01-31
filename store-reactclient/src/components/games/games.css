@@ -1,0 +1,224 @@
+.games {
+  overflow: auto;
+  padding: 15px;
+  height: 800px;
+  display: inline-flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.container {
+  width: 1080px;
+  background-color: rgb(32, 32, 32);
+  height: 100%;
+  padding: 0;
+}
+
+.genre-search-wrapper {
+  display: flex;
+  height: 80px;
+  padding-top: 15px;
+  font-size: 14px;
+  align-items: flex-start;
+}
+
+.top-genre {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 12px;
+}
+
+.search {
+  margin-right: 25px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  border: none;
+}
+
+.add-game-div {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.add-game-div a {
+  margin: 0;
+}
+
+.add-game-button {
+  background-color: rgb(52, 143, 52);
+  border: none;
+  color: white;
+  padding: 3px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.add-game-button:hover {
+  background-color: rgb(75, 163, 75);
+  transition: 0.2s ease;
+}
+
+.add-genre-button {
+  background-color: transparent;
+  border: 0;
+  width: 100px;
+  font-size: 12px;
+}
+
+.add-genre-checkbox-wrapper {
+  display: none;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+.add-genre-checkbox div {
+  color: black;
+  margin-left: 0;
+}
+
+.add-genre-checkbox {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.945);
+  border-radius: 10px;
+}
+
+.checkedgenres {
+  display: flex;
+  margin-left: 25px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.checkedboxdiv {
+  background: cornflowerblue;
+  margin-right: 15px;
+  padding: 3px 12px 3px 12px;
+  border-radius: 12px;
+  margin-bottom: 7px;
+  margin-left: 0;
+}
+
+.game img {
+  width: 200px;
+  height: 300px;
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.price {
+  margin: 0 auto;
+  margin-left: 0;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.game-info {
+  text-align: left;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.game-info p {
+  margin-bottom: 1px;
+}
+
+.genre {
+  font-size: 14px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(52, 143, 52);
+  border: none;
+  color: white;
+  padding: 3px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: rgb(75, 163, 75);
+  transition: 0.2s ease;
+}
+
+.game {
+  width: 200px;
+  height: 401px;
+}
+
+.name-link {
+  text-decoration: none;
+}
+
+.name-link p:hover {
+  color: rgb(209, 209, 209);
+  transition: 0.2s ease;
+}
+
+.image {
+  position: relative;
+}
+
+.edit-delete-div {
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  opacity: 0;
+}
+
+.edit-delete-div button {
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: transparent;
+}
+
+.edit-delete-div:hover {
+  opacity: 1;
+  transition: 0.4s ease;
+}
+
+.delete-game-div button {
+  color: red;
+}

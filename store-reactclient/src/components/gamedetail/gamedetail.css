@@ -1,0 +1,219 @@
+.details-wrapper {
+  display: flex;
+  width: 1080px;
+  background-color: rgb(32, 32, 32);
+  padding: 50px;
+}
+
+.details-img img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.button-edit {
+  background-color: rgb(179, 176, 3);
+  border: none;
+  color: white;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.button-edit:hover {
+  background-color: rgb(202, 199, 5);
+  transition: 0.2s ease;
+}
+
+.comments {
+  width: 1080px;
+  background-color: rgb(32, 32, 32);
+  padding: 0px 50px 50px 50px;
+}
+
+.comment-header {
+  display: flex;
+}
+
+.comment-header h6 {
+  margin: 0px 20px 20px 0px;
+}
+
+.comment-reply-btn {
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-top: 10px;
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.comment {
+  padding-bottom: 20px;
+}
+
+.comment-sub {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.genres-wrapper-details {
+  display: flex;
+  font-size: 0.85rem;
+}
+
+.comment-delete-btn {
+  background-color: transparent;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin-left: 20px;
+  color: red;
+}
+
+.comment-button {
+  background-color: rgb(61, 61, 255);
+  border: none;
+  color: white;
+  padding: 3px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.comment-button:hover {
+  background-color: rgb(94, 94, 255);
+  transition: 0.2s ease;
+}
+
+.add-comment {
+  padding-bottom: 30px;
+  display: none;
+}
+
+.add-comment.show {
+  display: block;
+}
+
+.comment-save {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.comment-save:hover {
+  background-color: rgb(75, 163, 75);
+  transition: 0.2s ease;
+}
+
+.comment-cancel {
+  background-color: darkred;
+  border: none;
+  color: white;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 2px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.comment-cancel:hover {
+  background-color: red;
+  transition: 0.2s ease;
+}
+
+.login-request {
+  color: yellow;
+  padding-bottom: 20px;
+}
+
+.comment-save:disabled {
+  background-color: rgb(104, 104, 104);
+  cursor: not-allowed;
+}
+
+.comment-control {
+  width: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-control-wrapper {
+  display: flex;
+}
+
+.comment-control {
+  margin-top: 11px;
+  display: flex;
+}
+
+.comment-edit-btn {
+  background-color: transparent;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin-left: 20px;
+  color: yellow;
+}
+
+.comment-restore-btn {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.comment-restore-btn:hover {
+  color: lightgreen;
+  transition: 0.2s ease;
+}
+
+.comment-reply-btn:hover {
+  color: lightcyan;
+  transition: 0.2s ease;
+}
+
+.comment-delete-btn:hover {
+  color: rgb(255, 96, 96);
+  transition: 0.2s ease;
+}
+
+.comment-edit-btn:hover {
+  color: rgb(248, 248, 188);
+  transition: 0.2s ease;
+}

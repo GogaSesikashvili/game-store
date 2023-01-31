@@ -1,0 +1,113 @@
+header {
+  background-color: black;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  width: 300px;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+header nav {
+  align-items: center;
+  text-align: center;
+  margin-left: 0;
+}
+
+.logo-img {
+  margin-right: 0;
+}
+
+.logoclass {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.login {
+  margin: 0 auto;
+}
+
+.sign-up-form {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 17;
+  display: none;
+}
+
+.sign-up-form.show {
+  display: block;
+}
+
+.darkbackground {
+  padding-top: 3%;
+  width: 1494;
+  height: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(133, 133, 133, 0.432);
+  z-index: 1;
+}
+
+.sign-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.sign-div {
+  margin: 0;
+  padding: 0;
+}
+
+.sign-separator-div {
+  margin-right: 0;
+  border-right: 1px solid white;
+}
+
+.sign-out-icon {
+  margin: 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cart-icon {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.cart-div {
+  display: flex;
+  margin: 0px 8px 0px 0px;
+}
+
+.cartlink {
+  margin: 0;
+  text-decoration: none;
+}

@@ -1,0 +1,103 @@
+.auth {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.884);
+  z-index: 18;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.auth a,
+.auth a:visited {
+  color: #fff;
+}
+
+.auth input[type="text"],
+.auth input[type="password"],
+.auth button,
+.auth textarea {
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+.auth label,
+.auth button {
+  margin-top: 1rem;
+}
+
+.auth button {
+  padding: 0.5rem;
+}
+
+.auth .instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.auth .instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.auth .offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.auth .hide {
+  display: none;
+}
+
+.auth .valid {
+  background-color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.auth .invalid {
+  background-color: red;
+  margin-left: 0.25rem;
+}
+
+.auth .errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.auth .line {
+  display: inline-block;
+}
+
+.signUpCloseBtn {
+  position: absolute;
+  right: -15px;
+  top: -30px;
+  background-color: rgb(199, 45, 45);
+  border: none;
+  border-radius: 50% !important;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 13px 5px 13px !important;
+}
